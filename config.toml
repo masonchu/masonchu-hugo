@@ -1,0 +1,23 @@
+languageCode = "zh-TW"
+baseurl = "http://example.org/"
+title = "Strange Case Hugo Theme"
+
+theme = "strange-case"
+
+[params]
+    colorScheme = "scheme-lightbrown"
+    DateFormat = "2006/01/02"
+    description = "A Hugo Theme built with Bootstrap"
+    sidebarDescription = "A Hugo Theme built with Bootstrap"
+    sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+
+
+[[menu.main]]
+    name = "Hugo"
+    post = "<span class='glyphicon glyphicon-fire'></span>"
+    url = "http://gohugo.io"
+
+[[menu.main]]
+    name = "Bootstrap"
+    post = "<span class='glyphicon glyphicon-ok'></span>"
+    url = "http://getbootstrap.com"
