@@ -1,5 +1,5 @@
 languageCode = "zh-TW"
-baseurl = "http://example.org/"
+baseurl = "https://masonchu.github.io/"
 title = "Strange Case Hugo Theme"
 
 theme = "strange-case"
