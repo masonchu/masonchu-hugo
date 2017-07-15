@@ -1,15 +1,16 @@
 languageCode = "zh-TW"
 baseurl = "https://masonchu.github.io/"
-title = "Strange Case Hugo Theme"
-
+title = "KY Chu"
 theme = "strange-case"
+tags = ["microservice", "golang"]
+features = ["responsive", "thumbnail", "grid", "syntax highlight", "structured data", "ogp", "twitter cards"]
 
 [params]
     colorScheme = "scheme-lightbrown"
     DateFormat = "2006/01/02"
-    description = "A Hugo Theme built with Bootstrap"
-    sidebarDescription = "A Hugo Theme built with Bootstrap"
-    sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+    description = "Build Awesome Things"
+    sidebarDescription = "Build Awesome Things"
+    sidebarFreeText = ""
 
 
 [[menu.main]]
