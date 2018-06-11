@@ -1,6 +1,6 @@
 languageCode = "zh-TW"
 baseurl = "https://masonchu.github.io/"
-title = "KY Chu"
+title = "Mason Chu"
 theme = "strange-case"
 tags = ["microservice", "golang"]
 features = ["responsive", "thumbnail", "grid", "syntax highlight", "structured data", "ogp", "twitter cards"]
