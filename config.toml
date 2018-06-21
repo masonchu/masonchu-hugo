@@ -14,11 +14,11 @@ features = ["responsive", "thumbnail", "grid", "syntax highlight", "structured d
 
 
 [[menu.main]]
-    name = "Hugo"
-    post = "<span class='glyphicon glyphicon-fire'></span>"
-    url = "http://gohugo.io"
+    name = "linkedin"
+    post = "<span class='fa fa-linkedin'></span>"
+    url = "https://www.linkedin.com/in/masonchu/"
 
 [[menu.main]]
-    name = "Bootstrap"
-    post = "<span class='glyphicon glyphicon-ok'></span>"
-    url = "http://getbootstrap.com"
+    name = "github"
+    post = "<span class='fa fa-github'></span>"
+    url = "https://github.com/masonchu"
