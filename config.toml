@@ -2,6 +2,7 @@ languageCode = "zh-TW"
 baseurl = "https://masonchu.github.io/"
 title = "Mason Chu"
 theme = "strange-case"
+googleAnalytics = "UA-28614097-1"
 tags = ["microservice", "golang"]
 features = ["responsive", "thumbnail", "grid", "syntax highlight", "structured data", "ogp", "twitter cards"]
 

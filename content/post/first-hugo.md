@@ -31,7 +31,11 @@ Hugo 是一套生成靜態頁面的工具(static site generator)。利用 Markd
     hugo new site <SiteName>
 
 就會建立出預設的檔案目錄
-
+### 建議第一篇 post
+```
+hugo new post/my-first-post.md
+```
+建立後的 md 檔案產生在 content/post 目錄
 ### 選擇 Theme
 
 ### 挑選寫作工具
