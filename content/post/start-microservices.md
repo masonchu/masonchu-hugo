@@ -12,8 +12,9 @@ draft: true
 ## 前置作業
 要開始進行 microservices 之前我認為至少要具備一些基本的系統服務處理，如果這幾個項目沒有先處理或是設想好，在實際開發上帶來的缺點可能比優點更多。  
 1. 服務發現 service discovery  
-2. 訊息傳遞系統 event sourcing message  
-3. 系統監控 monitor
+2. 事件訊息 event sourcing  
+3. 系統監控 monitor  
+4. 訊息傳遞 RPC
 ## 造成延伸問題
 microservices solve organizational problems  
 microservices cause technical problems
