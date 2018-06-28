@@ -42,10 +42,12 @@ nsqadmin --lookupd-http-address=127.0.0.1:4161
 
 ## 發佈環境配置
 使用在 microservices 中時候，nsqd 建議並不是全部 services 共用，而是個別配置一個 localhost 的 nsqd 註冊到 nsqlookupd。 
+
 > You may have your nsqds and nsqlookupds segregated so that all nodes are good candidates (we do this also), but this isn't a requirement. nsqlookupd can handle several nsqd "clusters" with distinct responsibilities, like a service discovery service.
 
-> When you get the nodes back you'll have to make a decision about which node you want to publish to. In our setup we either publish to localhost if nsqd is on the same box or a VIP.
+ >When you get the nodes back you'll have to make a decision about which node you want to publish to. In our setup we either publish to localhost if nsqd is on the same box or a VIP.
+
 ## Reference
-`PRODUCTION CONFIGURATION`<https://nsq.io/deployment/production.html>  
-`NewProducer and nslookupd`<https://github.com/nsqio/go-nsq/issues/170>
-<https://segmentfault.com/a/1190000009194607>
+<https://nsq.io/deployment/production.html>  
+<https://github.com/nsqio/go-nsq/issues/170>  
+<https://segmentfault.com/a/1190000009194607>  
