@@ -12,13 +12,11 @@ draft: true
 ## go-kit 已經做到了些什麼
 ## go-kit 還沒有做到什麼
 * 除了 RPC 之外的訊息傳遞支援
+
 ## Reference
-`最终，为什么选择go-kit` <https://www.jianshu.com/p/0c34a75569b1>  
 
-`Why I Recommend to Avoid Using the go-kit Library` <https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e>  
-
-`Peter Bourgon谈使用Go和“Go kit”构建微服务`<http://www.infoq.com/cn/news/2015/09/microservices-with-go-kit>
-
-`Go + Microservices = Go Kit [I] - Peter Bourgon, Go Kit`<https://www.youtube.com/watch?v=NX0sHF8ZZgw>
-
-`Discussion: package pubsub`<https://github.com/go-kit/kit/issues/295>
+最终，为什么选择go-kit <https://www.jianshu.com/p/0c34a75569b1>  
+Why I Recommend to Avoid Using the go-kit Library <https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e>  
+Peter Bourgon谈使用Go和“Go kit”构建微服务 <http://www.infoq.com/cn/news/2015/09/microservices-with-go-kit>   
+Go + Microservices = Go Kit [I] - Peter Bourgon, Go Kit <https://www.youtube.com/watch?v=NX0sHF8ZZgw>   
+Discussion: package pubsub <https://github.com/go-kit/kit/issues/295>

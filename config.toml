@@ -44,19 +44,19 @@ features = ["responsive", "thumbnail", "grid", "syntax highlight", "structured d
 [[menu.shortcuts]] 
     name = "<i class='fa fa-github'></i> Github"
     identifier = "ds"
-    url = "https://www.linkedin.com/in/masonchu/"
+    url = "https://github.com/masonchu"
     weight = 10
 [[menu.shortcuts]] 
     name = "<i class='fa fa-linkedin'></i> Linkedin"
     identifier = "in"
-    url = "https://github.com/masonchu"
+    url = "https://www.linkedin.com/in/masonchu/"
     weight = 11
 [[menu.shortcuts]] 
     name = "<i class='fa fa-stack-overflow'></i> Stack Overflow"
     identifier = "so"
     url = "https://stackoverflow.com/users/1053261/mason"
     weight = 11
-    
+
 # [[menu.shortcuts]] 
 #     name = "linkedin"
 #     post = "<span class='fa fa-linkedin'></span>"
