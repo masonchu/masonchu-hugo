@@ -6,9 +6,13 @@ tags:        [ "microservice" ]
 topics:      [ "microservice" ]
 ---
 ## 基本介紹
-預設使用 viper 套件處理環境變數
+Cobra 是一套可以快速可以快速建立 golang CLI 工具的套件。在 golang 的生態圈內到處都可以看到相關的痕跡。最有名的包含 docker, k8s 都使用 cobra 處理 CLI 介面。
 ## 使用方法
 ### 安裝
+如果已經準備好 go 的環境，只需要執行 go get 就可以將 cobra 加入安裝。
+```
+go get -u github.com/spf13/cobra/cobra
+```
 ### 建立根命令
 ```
 cobra init
@@ -40,5 +44,6 @@ to quickly create a Cobra application.
 cobra add <command name>
 ```
 ### 使用外部參數
+預設使用 viper 套件處理環境變數。
 ## Reference
 <https://github.com/spf13/cobra>

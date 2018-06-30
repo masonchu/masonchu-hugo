@@ -4,9 +4,10 @@ date: 2018-06-25T14:54:21+08:00
 draft: false
 tags:        [ "golang" ]
 topics:   	 [ "golang" ]
+weight: 15
 ---
 ## 基本介紹
-GVM 是一套管理 golang 版本的套件，類似於 nodeJS / nvm。
+GVM 是一套管理 golang 版本的套件，類似於 nodeJS / nvm。
 
 ## 安裝 GVM
 ```

@@ -1,6 +1,8 @@
 ---
-title: "golang"
+menuTitle: "golang"
+title: "golang 開發心得"
 date: 2018-06-29T11:05:04+08:00
+weight: 10
 draft: false
 ---
 
@@ -8,4 +10,3 @@ draft: false
 2017 跳脫待了9年的微軟圈，一方面是想要挑戰自己能更接觸到更大型完整的系統，另一方面也是受夠了在 mac 裡面安裝 parallels。結果一離開微軟就做了不少改變，更開放也更接觸 open source，開發跟部屬環境對非 windows 的支援也更全面。
 ## 為什麼選擇 golang
 由於以往都是 C# 的經驗為主，自然在挑選的時候以強型別/編譯式語言為主。java 有著跟 C# 一樣的問題，環境限制 JVM，oracle 也開始想盡辦法要在 licence 這上面撈一些。看到 golang 高效能高併發，還支援大多數 OS 不用額外安裝環境，光是想到就等不及要入坑。
-{{% children depth="1" description="true" %}}
