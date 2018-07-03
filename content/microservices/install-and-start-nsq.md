@@ -4,6 +4,7 @@ date: 2018-06-21T15:53:16+08:00
 tags:        [ "microservice" ]
 topics:      [ "microservice" ]
 draft: false
+weight: 80
 ---
 <!-- # 使用 NSQ -->
 ## 安裝 NSQ 在本機測試環境

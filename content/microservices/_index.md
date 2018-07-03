@@ -1,31 +1,30 @@
 ---
 menuTitle: "microservices"
-title: "開始 microservices"
+title: "開始微服務架構"
 date: 2018-06-29T11:03:34+08:00
 weight: 15
 draft: false
 ---
-## monolithic vs microservices
-以往在建構大型系統的時候，本來也就是會區分成多個部分來進行。像是常見的金流物流系統，就是將部分系統功能區分出去。microservices 則是將這種概念又更延伸到極致。
-
 ## 前置作業
 開始進行 microservices 至少要具備的基本建設。
 ### 開發相關配置 
 1. 服務發現 service discovery  
-	1. k8s etcd
-	2. consul
-	3. zookeeper
-	4. Netflix/eureka
-2. 事件訊息 event sourcing messaging
+	1. k8s
+	2. etcd
+	3. consul
+	4. zookeeper
+	5. Netflix/eureka
+2. 事件訊息(非同步訊息) event sourcing messaging
 	1. kafka
-3. 系統監控 monitor  
-	1. metrics
-	2. Prometheus
-	3. Grafana
-4. 訊息傳遞 transport
+	2. NSQ
+3. 訊息傳遞(同步訊息) transport
 	1. grpc
 	2. thrift
 	3. http
+4. 系統監控 monitor  
+	1. metrics
+	2. Prometheus
+	3. Grafana
 5. 斷路器 Circuit Breaker
 6. 紀錄追蹤 Log Tracking
 	1. opentracing
