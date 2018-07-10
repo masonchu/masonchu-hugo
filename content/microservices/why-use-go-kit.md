@@ -22,7 +22,7 @@ go-kit 是 golang 類似的套件中，最早開始被關注的，後來的類�
 
 * 除了 RPC 之外的訊息傳遞支援
 
-## Reference
+## ref
 
 最终，为什么选择go-kit <https://www.jianshu.com/p/0c34a75569b1>  
 Why I Recommend to Avoid Using the go-kit Library <https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e>  

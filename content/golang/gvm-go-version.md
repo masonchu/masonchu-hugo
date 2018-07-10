@@ -23,8 +23,14 @@ source "/Users/<username>/.gvm/scripts/gvm"
 gvm install go1.4 --binary # 直接安裝 binary
 gvm use go1.4 # 使用 go1.4 的環境
 export GOROOTBOOTSTRAP=$GOROOT # 設定 $GOROOTBOOTSTRAP
-gvm install go1.6 # 安裝 Go 1.6
-Installing go1.6...
+gvm install go1.10.3 # 安裝 Go go1.10.3
+Installing go1.10.3...
+```
+```
+gvm install go1.4 --binary
+gvm use go1.4
+export GOROOTBOOTSTRAP=$GOROOT
+gvm install go1.10.3
 ```
 ## 常用指令
 ```
@@ -33,6 +39,6 @@ gvm listall	- 列出線上可安裝版本
 gvm use		- 切換使用特定版本
 ```
 
-## Reference
+## ref
 <https://github.com/moovweb/gvm>  
 <https://blog.longwin.com.tw/2016/11/golang-gvm-go-version-manager-install-2016/>

@@ -3,7 +3,7 @@ title: "在本機安裝 Minikube"
 date: 2018-07-03T09:56:18+08:00
 draft: false
 weight: 20
-pre: "<b>1. </b>"
+# pre: "<b>1. </b>"
 ---
 minikube 是 kubernetes 社群推出的的一個輕量型工具，用於在本地端建置模擬 kubernetes 功能。minikube 支援以下幾種 vm driver。
 
@@ -47,5 +47,24 @@ minikube start
 minikube dashboard
 ```
 ![minikube dashboard](/images/kubernetes/minikube-dashboard.png)
-## reference
+## 部署到 Docker Image Minikube
+用 echoserver 建立一個測試 deploy
+```
+kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+```
+
+將資源暴露為新的 Kubernetes Service
+
+```
+kubectl expose deployment hello-minikube --type=NodePort
+```
+
+這時候可以取得 service url，從 url 就可以看到 service 回應。
+
+```
+minikube service hello-minikube --url
+```
+<!-- >這並不代表 service 這樣做就可以對外公開，而是只有在 minikube 上面本機檢視。 -->
+
+## ref
 <https://kubernetes.io/docs/setup/minikube/#minikube-features>

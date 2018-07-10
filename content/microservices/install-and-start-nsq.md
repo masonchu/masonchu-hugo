@@ -49,7 +49,19 @@ nsqadmin --lookupd-http-address=127.0.0.1:4161
 
  >When you get the nodes back you'll have to make a decision about which node you want to publish to. In our setup we either publish to localhost if nsqd is on the same box or a VIP.
 
-## Reference
+<!-- ## 在 kubernete 上建立 nsq 服務
+
+```
+kubectl run nsqlookup --image=nsqio/nsq /nsqlookupd --port=4161
+```
+```
+kubectl expose deployment nsqlookup --type=NodePort
+```
+```
+kubectl run nsqadmin --image=nsqio/nsq /nsqadmin --lookupd-http-address=localhost:4161 --port:4171
+```
+10.96.49.165 -->
+## ref
 <https://nsq.io/deployment/production.html>  
 <https://github.com/nsqio/go-nsq/issues/170>  
 <https://segmentfault.com/a/1190000009194607>  

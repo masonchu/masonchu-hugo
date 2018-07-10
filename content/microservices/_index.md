@@ -29,6 +29,8 @@ draft: false
 6. 紀錄追蹤 Log Tracking
 	1. opentracing
 	2. zipkin
+	3. Elasticsearch
+	4. Stackdriver
 7. Auth
 
 ### Devops
@@ -46,7 +48,7 @@ draft: false
 microservices solve organizational problems  
 microservices cause technical problems
 
-## Reference
+## ref
 Go + Microservices = Go Kit [I] - Peter Bourgon, Go Kit <https://www.youtube.com/watch?v=NX0sHF8ZZgw>  
 微服務基礎建設 - Service Discovery <http://columns.chicken-house.net/2017/12/31/microservice9-servicediscovery/>
 

@@ -45,5 +45,5 @@ cobra add <command name>
 ```
 ### 使用外部參數
 預設使用 viper 套件處理環境變數。
-## Reference
+## ref
 <https://github.com/spf13/cobra>
