@@ -27,7 +27,7 @@ kubectl version
 ```
 > 如果還沒有啟動 Minikube 這時候會出現 The connection to the server localhost:8080 was refused 的訊息。
 
-## 安裝 Minikube
+## 安裝 minikube
 
 ```
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.28.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
@@ -36,12 +36,14 @@ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.28.0/minik
 ```
 brew cask install minikube
 ```
-### 啟動 Minikube
+### 啟動 minikube
 ```
 minikube start
 ```
 > 如果是第一次啟動，這時候會自動下載 Minikube ISO & kubelet & kubeadm
-
+```
+minikube start --kubernetes-version v1.10.0
+```
 ### 啟動 Minikube 儀表板
 ```
 minikube dashboard
@@ -68,3 +70,6 @@ minikube service hello-minikube --url
 
 ## ref
 <https://kubernetes.io/docs/setup/minikube/#minikube-features>
+
+怎麼暴露本機服務給 minikube
+<https://blog.fraq.io/tech/exposing-local-services-to-minikube/>

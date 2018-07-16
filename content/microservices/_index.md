@@ -26,12 +26,13 @@ draft: false
 	2. Prometheus
 	3. Grafana
 5. 斷路器 Circuit Breaker
-6. 紀錄追蹤 Log Tracking
+6. Health Check
+7. 紀錄追蹤 Log Tracking
 	1. opentracing
 	2. zipkin
 	3. Elasticsearch
 	4. Stackdriver
-7. Auth
+8. Auth
 
 ### Devops
 1. CI / CD
