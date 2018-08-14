@@ -1,13 +1,17 @@
 ---
 title: "第一次使用 Hugo 就上手"
 date: 2017-07-05T12:35:25+08:00
-tags:       [ "hugo" ]
-topics:
-slug:        "first-hugo"
+categories:
+- golang
+tags:
+- hugo
+- golang
+slug: "first-hugo"
 draft: false
 ---
-## 基本介紹  
 Hugo 是一套生成靜態頁面的工具(static site generator)。利用 Markdown 將內容跟樣式外觀完整分開，再利用生成的靜態網頁直接發佈到 server 上。般來說 markdown 語法對應樣式種類會比較少，但是相對的也是幫助在寫作的時候專注在內容而不是樣式上。
+
+<!--more-->
 
 ### 與動態的 blog 平台比較
 ##### 優點   

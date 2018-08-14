@@ -20,3 +20,4 @@ DRONE_MAX_PROCS
 ```
 ## ref
 <https://blog.wu-boy.com/2017/12/drone-cli-local-testing/>
+<https://blog.depado.eu/post/ci-cd-with-drone-kubernetes-and-helm-2>

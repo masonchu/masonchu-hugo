@@ -1,14 +1,18 @@
 ---
 title: "安裝和啟用 NSQ 服務"
 date: 2018-06-21T15:53:16+08:00
-tags:        [ "microservice" ]
-topics:      [ "microservice" ]
+slug: install-and-start-nsq
+categories:
+- microservice
+tags:
+- microservice
+- golang
 draft: false
-weight: 80
 ---
 <!-- # 使用 NSQ -->
 ## 安裝 NSQ 在本機測試環境
 NSQ 本身有提供 brew / docker 版本。在這邊我是直接使用 github 原始碼下載編譯，注意 golang 1.7+ 並且已經有 dep 套件管理。在 test.sh 會執行 golang test & 編譯出所有的可執行檔。
+
 ### 下載 source code & 安裝相依性套件
 ```
 git clone https://github.com/nsqio/nsq $GOPATH/src/github.com/nsqio/nsq

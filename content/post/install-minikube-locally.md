@@ -1,11 +1,16 @@
 ---
 title: "在本機安裝 Minikube"
 date: 2018-07-03T09:56:18+08:00
+slug: install-minikube-locally
 draft: false
-weight: 20
-# pre: "<b>1. </b>"
+categories:
+- kubernetes
+tags:
+- kubernetes
 ---
 minikube 是 kubernetes 社群推出的的一個輕量型工具，用於在本地端建置模擬 kubernetes 功能。minikube 支援以下幾種 vm driver。
+
+<!--more-->
 
 1. virtualbox(預設值)
 2. vmwarefusion
@@ -65,6 +70,10 @@ kubectl expose deployment hello-minikube --type=NodePort
 
 ```
 minikube service hello-minikube --url
+```
+當建立 pods 的時候如果有發生 `Insufficient memory / CPU` 的錯誤，可以試著給 minikube 更多資源。
+```
+minikube stop && minikube start --cpus 4 --memory 8192
 ```
 <!-- >這並不代表 service 這樣做就可以對外公開，而是只有在 minikube 上面本機檢視。 -->
 

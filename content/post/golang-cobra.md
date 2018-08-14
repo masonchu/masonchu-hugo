@@ -1,12 +1,17 @@
 ---
 title: "Cobra 強大的 Golang 命令列工具"
 date: 2018-06-27T12:49:40+08:00
+slug: golang-cobra
 draft: false
-tags:        [ "microservice" ]
-topics:      [ "microservice" ]
+categories:
+- golang
+tags:
+- golang
 ---
-## 基本介紹
 Cobra 是一套可以快速可以快速建立 golang CLI 工具的套件。在 golang 的生態圈內到處都可以看到相關的痕跡。最有名的包含 docker, k8s 都使用 cobra 處理 CLI 介面。
+
+<!--more-->
+
 ## 使用方法
 ### 安裝
 如果已經準備好 go 的環境，只需要執行 go get 就可以將 cobra 加入安裝。

@@ -1,12 +1,18 @@
 ---
 menuTitle: "golang"
-title: "golang 開發心得"
-date: 2018-06-29T11:05:04+08:00
-weight: 10
+title: "移轉到 golang 的改變"
+date: 2018-06-29T12:49:40+08:00
+slug: move-to-goland
+categories:
+- golang
+tags:
+- golang
 draft: false
 ---
 
 2017 跳脫待了 9 年的 .net 開發環境，一方面是想要挑戰自己能接觸到更多的系統架構。另一方面也是受夠了在 mac 裡面安裝 parallels，去處理開發環境限定 windows 的問題。
+
+<!--more-->
 
 > 結果這幾年微軟新 CEO 就做了不少改變，更開放也更接觸 open source，開發跟部屬環境對非 windows 的支援也更全面。我個人對於微軟這次的改變真的是非常欣賞，終於處理了 windows / office 派系問題走向開放。事實也證明結果並沒有讓微軟失去領先地位，而是藉著開發社群 & 雲端創造更多收益。
 

@@ -1,14 +1,15 @@
 ---
 title: "使用 GVM 管理 go 版本"
 date: 2018-06-25T14:54:21+08:00
+slug: gvm-go-version
 draft: false
-tags:        [ "golang" ]
-topics:   	 [ "golang" ]
-weight: 15
+categories:
+- golang
+tags:
+- golang
 ---
-## 基本介紹
 GVM 是一套管理 golang 版本的套件，類似於 nodeJS / nvm。
-
+<!--more-->
 ## 安裝 GVM
 ```
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)

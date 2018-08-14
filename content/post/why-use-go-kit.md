@@ -1,17 +1,20 @@
 ---
 title: "microservices 套件(1) - go-kit"
 date: 2017-07-05T15:52:11+08:00
-tags:        [ "microservice", "golang" ]
-topics:      [ "microservice", "golang" ]
+slug: why-use-go-kit
+categories:
+- golang
+tags:
+- microservice
+- golang
 draft: true
-weight: 50
 ---
 <!-- ![](/images/go-kit microservices.png){: width=50 } -->
 
 ## 什麼是 go-kit
 
 go-kit 是一套 golang 針對 microservices 架構開發的 toolkit，目的在於建立 go-kit 能成為 golang 在 microservices 框架下的標準 library (注意不是 framework) 讓開發的時候只需要專注在商業邏輯上，而 microservices 不同協定下的問題就可以直接引用 go-kit 來處理。
-
+<!--more-->
 
 >作者 Peter Bourgon 在 SoundCloud 的時候發現，雖然公司內部專案已經有很多使用 go 開發，但是往往在建立新專案的時候，go 不會被選擇到，而是使用 scala / ruby，原因是由於 library 不足。造成在使用 go 的時候許多看似共通的問題還是要從頭開始造輪子。因而催生了 go-kit 這個專案。
 

@@ -2,11 +2,20 @@
 menuTitle: "microservices"
 title: "開始微服務架構"
 date: 2018-06-29T11:03:34+08:00
-weight: 15
+slug: start-microservices
+categories:
+- microservices
+tags:
+- microservices
 draft: false
 ---
+決定系統往微服務架構前進。
+
+<!--more-->
+
 ## 前置作業
 開始進行 microservices 至少要具備的基本建設。
+
 ### 開發相關配置 
 1. 服務發現 service discovery  
 	1. k8s
