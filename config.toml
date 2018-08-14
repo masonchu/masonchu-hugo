@@ -12,10 +12,10 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://example.org/"
+baseURL = "https://blog.masonchu.com/"
 languageCode = "zh-TW"
 defaultContentLanguage = "zh-TW"
-title = "Hugo tranquilpeak theme"
+# title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "masonchu"
 googleAnalytics = "UA-28614097-1"
@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Mason Chu"
-  bio = "Super bio with markdown support **COOL**"
+#   bio = "Super bio with markdown support **COOL**"
   job = "software engineer"
   location = "Taiwan"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -40,6 +40,7 @@ canonifyurls = true
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  # picture = "assets/images/layout/tomorrowland.jpg"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -95,7 +96,7 @@ canonifyurls = true
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
-  url = "/index.xml"
+  url = "/feed.xml"
 
 [params]
   # Customize date format use to render blog post date, categories and other
@@ -142,7 +143,7 @@ canonifyurls = true
   # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
   # and use relative url : `your-image.png`
   coverImage = "cover.jpg"
-
+  # coverImage = "layout/tomorrowland.jpg"
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
 

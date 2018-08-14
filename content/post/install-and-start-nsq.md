@@ -9,6 +9,9 @@ tags:
 - golang
 draft: false
 ---
+NSQ 是一套用 GO 開發的訊息傳遞系統。同樣角色時常拿來比較的對象是 rabbitMQ、kafka。
+<!--more-->
+
 <!-- # 使用 NSQ -->
 ## 安裝 NSQ 在本機測試環境
 NSQ 本身有提供 brew / docker 版本。在這邊我是直接使用 github 原始碼下載編譯，注意 golang 1.7+ 並且已經有 dep 套件管理。在 test.sh 會執行 golang test & 編譯出所有的可執行檔。

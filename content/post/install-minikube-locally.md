@@ -2,15 +2,18 @@
 title: "在本機安裝 Minikube"
 date: 2018-07-03T09:56:18+08:00
 slug: install-minikube-locally
+thumbnailImagePosition: left
+# thumbnailImage: images/kubernetes/minikube.png
 draft: false
 categories:
 - kubernetes
 tags:
 - kubernetes
 ---
-minikube 是 kubernetes 社群推出的的一個輕量型工具，用於在本地端建置模擬 kubernetes 功能。minikube 支援以下幾種 vm driver。
+minikube 是 kubernetes 社群推出的的一個輕量型工具，用於在本地端建置模擬 kubernetes 功能。
 
 <!--more-->
+minikube 支援以下幾種 vm driver。
 
 1. virtualbox(預設值)
 2. vmwarefusion
