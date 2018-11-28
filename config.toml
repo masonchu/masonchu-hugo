@@ -15,7 +15,7 @@
 baseURL = "https://blog.masonchu.com/"
 languageCode = "zh-TW"
 defaultContentLanguage = "zh-TW"
-# title = "Hugo tranquilpeak theme"
+title = "Mason Tech Note"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "masonchu"
 googleAnalytics = "UA-28614097-1"
@@ -96,7 +96,7 @@ canonifyurls = true
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
-  url = "/feed.xml"
+  url = "/index.xml"
 
 [params]
   # Customize date format use to render blog post date, categories and other

@@ -3,7 +3,7 @@ title: "在本機安裝 Minikube"
 date: 2018-07-03T09:56:18+08:00
 slug: install-minikube-locally
 thumbnailImagePosition: left
-# thumbnailImage: images/kubernetes/minikube.png
+thumbnailImage: images/kubernetes/minikube.png
 draft: false
 categories:
 - kubernetes

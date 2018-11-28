@@ -66,6 +66,13 @@ sudo cp $GOPATH/src/github.com/mholt/caddy/dist/init/linux-systemd/caddy.service
 ```
 sudo chmod 644 /etc/systemd/system/caddy.service
 ```
+
+## 啟動 caddy server
+```
+sudo systemctl start caddy
+sudo systemctl status caddy
+```
+
 ## Caddy 相關設定
 
 
