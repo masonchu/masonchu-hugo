@@ -49,9 +49,10 @@ nsqadmin --lookupd-http-address=127.0.0.1:4161
 ## 使用 go-nsq 發布與接受訊息
 
 ## 發佈環境配置
-使用在 microservices 中時候，nsqd 建議並不是全部 services 共用，而是個別配置一個 localhost 的 nsqd 註冊到 nsqlookupd。 
+使用在 microservices 中時候，nsqd 建議並不是全部 services 共用，而是使用 sidecar 模式註冊到 nsqlookupd。 
 
-在 nsq gitlab issue 中提到，建議在每個 node 都部署一個 nsqd 再註冊到一台或多台的 nsqlookup 中，這樣各自的 service 生產的訊息就通一推到各自的 localhost，再由 nsqd 處理訊息這一段。   
+在 nsq gitlab issue 中提到，建議在每個 node 都部署一個 nsqd 再註冊到一台或多台的 nsqlookup 中，這樣各自的 service 生產的訊息就通一推到各自的 sidecar，再由 nsqd 處理訊息這一段。   
+
 > You may have your nsqds and nsqlookupds segregated so that all nodes are good candidates (we do this also), but this isn't a requirement. nsqlookupd can handle several nsqd "clusters" with distinct responsibilities, like a service discovery service.
 
  >When you get the nodes back you'll have to make a decision about which node you want to publish to. In our setup we either publish to localhost if nsqd is on the same box or a VIP.

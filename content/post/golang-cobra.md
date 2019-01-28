@@ -13,12 +13,17 @@ Cobra 是一套可以快速可以快速建立 golang CLI 工具的套件。在 g
 <!--more-->
 
 ## 使用方法
+
 ### 安裝
+
 如果已經準備好 go 的環境，只需要執行 go get 就可以將 cobra 加入安裝。
-```
+
+```code
 go get -u github.com/spf13/cobra/cobra
 ```
+
 ### 建立根命令
+
 ```
 cobra init
 ```
@@ -28,15 +33,18 @@ cobra init
 + cmd  
   root.go
 + main.go
-```
+
+```text
 package main
 
 func main() {
 	cmd.Execute()
 }
 ```
+
 這時候只要執行 `go run main.go` 就會顯示 cobra 預設的 CLI 指令。
-```
+
+```text
 A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
 
@@ -44,11 +52,15 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.
 ```
+
 ### 加入額外命令
-```
+
+```text
 cobra add <command name>
 ```
+
 ### 使用外部參數
+
 預設使用 viper 套件處理環境變數。
 ## ref
 <https://github.com/spf13/cobra>
