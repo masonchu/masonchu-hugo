@@ -14,7 +14,7 @@
 
 baseURL = "https://blog.masonchu.com/"
 languageCode = "zh-TW"
-defaultContentLanguage = "zh-TW"
+# defaultContentLanguage = "zh-TW"
 title = "Mason Tech Note"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "masonchu"
@@ -91,12 +91,12 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
   url = "https://stackoverflow.com/users/1053261/mason"
 
-[[menu.misc]]
-  weight = 1
-  identifier = "rss"
-  name = "RSS"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
-  url = "/index.xml"
+# [[menu.misc]]
+#   weight = 1
+#   identifier = "rss"
+#   name = "RSS"
+#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
+#   url = "/index.xml"
 
 [params]
   # Customize date format use to render blog post date, categories and other
